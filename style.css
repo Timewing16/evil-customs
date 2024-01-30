@@ -4,7 +4,8 @@ body{
     box-sizing: border-box;
     background-image: url('therealskel.jpeg');
     background-repeat: no-repeat;
-    background-size: 50% 600px;
+    background-size: 80% 600px;
+    text-align: center;
 }
 ul{
     padding: 20px;
@@ -127,10 +128,29 @@ p{
     }
     
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     .images li{
         width: 100%;
         margin: 20 px auto;
         display: block;
+    }
+}
+@media screen and (max-width: 550px){
+    .video{
+        width: 100%;
+        margin: 20 px auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 550px){
+    .video{
+        width: 100%;
+        margin: 20 px auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 550px){
+    .txtb input, .txtb textarea{
+        width: 100%;
     }
 }
