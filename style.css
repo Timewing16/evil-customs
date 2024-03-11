@@ -107,7 +107,7 @@ footer{
     text-align: left;
 }
 .about-image{
-    float:left
+    float:left;
 }
 p{
     color: red;
@@ -152,5 +152,19 @@ p{
 @media screen and (max-width: 550px){
     .txtb input, .txtb textarea{
         width: 100%;
+    }
+}
+@media screen and (max-wdith: 550px){
+    .contact-form{
+        width: 100%;
+        margin: 20 px auto;
+        display: block;
+    }
+}
+@media screen and (max-wdith: 550px){
+    .about-image{
+        width: 100%;
+        margin: 20 px auto;
+        display: block;
     }
 }
